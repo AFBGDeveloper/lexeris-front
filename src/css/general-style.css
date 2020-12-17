@@ -1,0 +1,355 @@
+/* Codigo desarrollado por Edwin Nieto */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body{
+	font-family: 'Playfair Display', serif;
+}
+
+main{
+	margin-top: 66.58px;
+}
+header{
+	position: fixed;
+	top: 0;
+	background: #fff !important;
+	z-index: 100;
+}
+
+.svg-inline--fa.fa-w-14 {
+	width: 40px;
+	padding: 10px;
+}
+
+#burger-menu {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.burger-button {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #680000;
+	display: block;
+	line-height: 40px;
+	text-align: center;
+	position: fixed;
+	z-index: 101;
+	left: 10px;
+	top: 10px;
+	color: #fff;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	background-color: #fff;
+	color: #000;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+ol, ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu ol li {
+	padding: 5px 10px;
+}
+
+a.link {
+	color: #fff;
+	font-weight: bolder;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	-webkit-transition: ease-in 0.3s;
+	-o-transition: ease-in 0.3s;
+	transition: ease-in 0.3s;
+}
+
+a.link:hover {
+	-webkit-transition: ease-in 0.3s;
+	-o-transition: ease-in 0.3s;
+	transition: ease-in 0.3s;
+}
+
+.menu {
+	height: auto;
+}
+
+.header ol {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.header ol li, .header ol {
+	height: inherit;
+}
+
+.header a {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: inherit;
+	margin: 0 10px;
+}
+
+.burger-button {
+	display: block;
+}
+
+.header {
+	display: block;
+	height: auto;
+}
+
+.header ol {
+	display: block;
+}
+
+.header a {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.menu {
+	position: fixed;
+	z-index: 3;
+	background: #000000bb;
+	color: #fff !important;
+	top: 0;
+	left: -100vw;
+	width: 100vw;
+	bottom: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.menu.is-active {
+	left: 0;
+}
+
+#float-btn-what{
+	position: fixed;
+	z-index: 100;
+	bottom:10px; 
+	right: 10px;
+
+}
+#float-btn-what *{
+	color: #fff;
+	text-decoration: none;
+}
+
+#dudas-container{
+	background: #000000bc;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 12px;
+	text-align: justify;
+}
+
+footer{
+	background: #680000;
+	color: #FFF !important;
+}
+
+.footer-link{
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+	transition: ease-in-out 0.3s;
+}
+
+.footer-link:hover{
+	text-decoration: none;
+	color: #D8C68A;
+	cursor: pointer;
+	transition: ease-in-out 0.3s;
+}
+
+.social-icon-footer{
+	margin-right: 20px;
+}
+
+.social-icon-link{
+	text-decoration: none !important;
+	color: unset;
+	transition: ease-in-out all 0.3s;
+}
+
+.social-icon-link:hover{
+	color: #D8C68A;
+	transition: ease-in-out all 0.3s;
+}
+aside div.card{
+	width: 80% !important;
+	margin: 0 auto !important;
+}
+.typing{
+	position: absolute;
+	left: 23%;
+}
+
+#search-box{
+	background: transparent;
+	text-align: center;
+}
+
+#search-box::placeholder{
+	text-align: center;
+}
+
+.badge-pill{
+	background-color: #680000 !important;
+	color: #fff;
+}
+
+li.d-flex{
+	position: relative;
+}
+
+li.d-flex ul.submenu{
+	color: #000 !important;
+	display: none;
+	position: absolute;
+	top: 30px;
+	width: 200px;
+	background: #fff;
+	color: #000;
+	transition: ease-in-out all 0.3s;
+	border-radius: 5px;
+	border: solid 1px #000000bc;
+}
+
+li.d-flex:hover ul.submenu{
+	display: flex;
+	flex-direction: column;
+	transition: ease-in-out all 0.3s;
+}
+
+ul.submenu li:hover{
+	border-bottom: solid 2px #680000;
+	cursor: pointer;
+}
+.card-img-top{
+	border-radius: 50%;
+}
+
+.card img{
+	width: 50%;
+	height: 90px;
+	margin: 10px auto;
+}
+.btn-card{
+	background: transparent; color: #680000; border: solid 1px #680000; border-radius: 5px; width: 100%;
+	transition: ease-in-out all 0.3s;
+}
+
+.btn-card:hover{
+	background: #680000;
+	color: #FFF;
+	transition: ease-in-out all 0.3s;
+}
+.card-body{
+	text-align: center;
+}
+.card-body h6{
+	font-size: 14px;
+}
+.card-body span{
+	font-size: 12px;
+	line-height: 0 !important;
+}
+.card-body p{
+	line-height: 0;
+}
+.card-body a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #680000;
+}
+
+@media screen and (min-width: 768px){
+	#lexeris-logo{
+		width: 100px;
+	}
+
+	#menu {
+		background: #fff;
+		color: #000;
+		-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	}
+
+	.menu {
+		position: unset;
+		width: 90%;
+		flex-direction: column;
+		background: #fff;
+		margin-right: 2%;
+	}
+
+	.header ol {
+		display: flex;
+	}
+
+	#burger-menu {
+		display: none;
+	}
+
+	a.link {
+		color: #000;
+	}
+
+	a.link:hover, a.link.active {
+		border-bottom: solid #680000 1px;
+	}
+
+	aside div.card{
+		width: 100% !important;
+	}
+
+	.typing{
+		position: absolute;
+		left: 40%;
+	}
+
+}
