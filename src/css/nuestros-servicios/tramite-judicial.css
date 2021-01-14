@@ -1,0 +1,99 @@
+#tramites-juridicos-banner{
+	height: 60vh;
+	background-image: url('/src/img/nuestros-servicios/tramites-judiciales/tramites-juridicos-bg.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+a, a:hover{
+	text-decoration: none;
+	color: #000;
+}
+.links-contacto img{
+	width: 50px;
+	height: auto;
+}
+
+.tramite-box-1{
+	width: 300px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	background: #EEEEEE;
+	color: #000;
+}
+.tramite-box-2{
+	width: 500px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 15px;
+	background: #EEEEEE;
+	color: #000;
+
+}
+
+#banner-servicios{
+	position: relative;
+}
+
+
+.bg-t{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #0000003f;
+	width: 100%;
+	height: 100%
+}
+
+#titulo-bs{
+position: absolute;
+top: 15px;
+color: #fff;
+z-index: 10;
+background: #000000bc;
+padding: 10px;
+}
+
+
+#banner-izq{
+	background-image: url('/src/img/nuestros-servicios/tramites-judiciales/banner-izq.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#banner-der{
+	background-image: url('/src/img/nuestros-servicios/tramites-judiciales/banner-der.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+a.link-tramite:hover{
+	background: rgb(148, 122, 19);
+	color: #fff;
+	border: 1px solid #680000;
+}
+
+
+.servicio-item{
+	background: #EEEEEE;
+	border-radius: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 0.1px solid #000;
+	color: #000;
+}
+h2{
+	font-size: 20px;
+}
+@media screen and (min-width: 768px){
+	h2{
+		font-size: 25px;
+	}
+}

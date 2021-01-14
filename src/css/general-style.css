@@ -1,0 +1,453 @@
+/* Codigo desarrollado por Edwin Nieto */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body{
+	font-family: 'Playfair Display', serif;
+}
+
+main{
+	margin-top: 66.58px;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	background: #fff !important;
+	z-index: 100;
+}
+
+a{
+	text-decoration: none;
+	transition: ease-in-out all 0.3s;
+}
+
+a:hover{
+	text-decoration: none;
+	transition: ease-in-out all 0.3s;
+}
+
+.svg-inline--fa.fa-w-14 {
+	width: 40px;
+}
+
+.img-responsive{
+	width: 100%;
+}
+
+.rounded-img{
+	border-radius: 50%;
+}
+
+figure{
+	width: 200px;
+	margin: 0 auto;
+}
+.row img{
+	width: 100%;
+}
+
+.ico{
+	width: 48px; height: 48px;
+}
+
+.ico path{
+	fill: #d4af37 ;
+}
+
+.social-icon{
+	width:24px;height:24px; margin-right: 10px;
+}
+.social-icon:hover path{
+	fill: #d4af37 ;
+	transition: 0.3s ease-in-out all ;
+}
+
+.social-icon path{
+	fill: #fff;
+}
+
+#burger-menu {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.burger-button {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #680000;
+	display: block;
+	line-height: 40px;
+	text-align: center;
+	position: fixed;
+	z-index: 101;
+	left: 5px;
+	top: 5px;
+	color: #fff;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	background-color: #fff;
+	color: #000;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+ol, ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu ol li {
+	padding: 5px 10px;
+}
+
+a.link {
+	color: #fff;
+	font-weight: bolder;
+	border-bottom: 1px solid transparent;
+	-webkit-transition: ease-in 0.3s;
+	-o-transition: ease-in 0.3s;
+	transition: ease-in 0.3s;
+}
+
+a.link:hover {
+	-webkit-transition: ease-in 0.3s;
+	-o-transition: ease-in 0.3s;
+	transition: ease-in 0.3s;
+}
+
+.menu {
+	height: auto;
+}
+
+.header ol {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.header ol li, .header ol {
+	height: inherit;
+}
+
+.header a {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: inherit;
+	margin: 0 10px;
+}
+
+.burger-button {
+	display: block;
+}
+
+.header {
+	display: block;
+	height: auto;
+}
+
+.header ol {
+	display: block;
+}
+
+.header a {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.menu {
+	position: fixed;
+	z-index: 3;
+	background: #000000bb;
+	color: #fff !important;
+	top: 0;
+	left: -100vw;
+	width: 100vw;
+	bottom: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.menu.is-active {
+	left: 0;
+}
+
+#float-btn-what{
+	position: fixed;
+	z-index: 100;
+	bottom: 10px; 
+	right: 20px;
+	background: #f3f3f3;
+	border-radius: 5px;
+	-webkit-box-shadow: -8px 2px 15px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -8px 2px 15px 0px rgba(0,0,0,0.75);
+	box-shadow: -8px 2px 15px 0px rgba(0,0,0,0.75);
+
+}
+
+#float-btn-what *{
+	color: #000;
+}
+
+#dudas-img{
+	width: 80px;
+	height: 80px;
+	border-radius: 5px;
+}
+
+footer{
+	background: #680000;
+	color: #FFF !important;
+}
+
+.footer-link{
+	color: #fff;
+	cursor: pointer;
+	transition: ease-in-out 0.3s;
+}
+
+.footer-link:hover{
+	color: #d4af37 ;
+	cursor: pointer;
+	transition: ease-in-out 0.3s;
+}
+
+.social-icon-footer{
+	margin-right: 20px;
+}
+
+.social-icon-link{
+	text-decoration: none !important;
+	color: unset;
+	transition: ease-in-out all 0.3s;
+}
+
+.social-icon-link:hover{
+	color: #d4af37 ;
+	transition: ease-in-out all 0.3s;
+}
+
+li.d-flex ul.submenu{
+	color: #000 !important;
+	display: none;
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	width: 100%;
+	height: auto;
+	background: #fff;
+	color: #000;
+	transition: ease-in-out all 0.3s;
+	border-radius: 5px;
+	border: solid 1px #000000bc;
+	-webkit-box-shadow: 2px 6px 18px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 6px 18px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 6px 18px 0px rgba(0,0,0,0.75);
+}
+
+li.d-flex:hover ul.submenu{
+	display: flex;transition: ease-in-out all 0.3s;
+}
+
+ul.submenu li:hover{
+	border-bottom: solid 2px #680000;
+	cursor: pointer;
+}
+/* Estilos carousel */
+
+.card-abogado *{
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.img-abogado{
+	width: 90px !important;
+	height: 90px; 
+	border-radius: 15px;
+	margin: 0 auto;
+}
+.titulo-abogado{
+	color: #680000;
+}
+
+.especialidad-abogado{
+	font-size: 14px;
+}
+.valor-consulta-abogado{
+	font-size: 12px;
+}
+
+.btn-abogado{
+	background: #680000;
+	color: #fff;
+	font-size: 12px;
+	width: 70%;
+	padding: 3px !important;
+}
+.btn-ver-curriculo{
+	color: #000;
+	width: 70%;
+	font-size: 12px;
+	background: #d4af37 ;
+	color: #000;
+	padding: 3px;
+}
+
+.btn-abogado:hover,.btn-ver-curriculo:hover{
+	border: solid 1px #d4af37 ;
+	color: #000;
+	background: #d4af37 ;
+}
+
+.btn-abogado svg{
+	visibility: hidden;
+}
+.btn-abogado:hover svg{
+	visibility: visible;
+}
+.btn-container{
+	width:100%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+.btn-container div svg{
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+}
+.btn-container div svg path{
+	fill: #680000;
+}
+
+.owl-dot span{
+	background: #680000 !important;
+}
+
+.owl-dot.active span{
+	background: #d4af37  !important;
+}
+
+/* Fin Estilos carousel */
+
+
+.btn-enviar{
+	background: #680000;
+	color: #fff;
+}
+.btn-enviar:hover{
+	color: #d4af37 ;
+}
+
+.btn-cta{
+	background: #680000;
+	color: #fff;
+}
+
+.btn-cta:hover{
+	background: #d4af37 ;
+	color: #000;
+}
+
+.btn, .btn:hover{
+	transition: ease-in-out all 0.3s;
+}
+
+
+@media screen and (min-width: 768px){
+
+	main{
+		margin-top: 91px;
+	}
+
+	#menu {
+		background: #fff;
+		color: #000;
+		-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	}
+
+	.menu {
+		position: unset;
+		width: auto;
+		flex-direction: column;
+		background: #fff;
+		margin-right: 2%;
+	}
+
+	.header ol {
+		display: flex;
+	}
+
+	figure{
+		width: 250px;
+		margin: unset;
+	}
+
+	#burger-menu {
+		display: none;
+	}
+
+	#dudas-container{
+		font-size: 14px;
+	}
+
+	#dudas-img{
+		width: 100px;
+		height: 100px;
+	}
+
+	a.link {
+		color: #000;
+	}
+
+	a.link:hover, a.link.active {
+		border-bottom: solid #680000 1px;
+	}
+
+	.link-header-top{
+		font-size: 12px;
+	}
+}
