@@ -31,7 +31,7 @@
 					<div class="col-12 col-md-10">
 
 						<section class="row justify-content-center text-center my-3">
-							<h3><b>HOY</b> MISMO EMPEZAMOS A SOLUCIONAR SU CASO</h3>
+							<h3><b>HOYs</b> MISMO EMPEZAMOS A SOLUCIONAR SU CASO</h3>
 						</section>
 
 						<section class="row pos-relative">
