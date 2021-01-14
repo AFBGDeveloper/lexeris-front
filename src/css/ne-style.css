@@ -1,0 +1,36 @@
+.nuestro-equipo-item{
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #680000;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+	width: 300px;
+}
+
+
+.nuestro-equipo-item a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 14px;	
+}
+
+.ne-svg{
+	width: 24px;
+	height: 24px;
+}
+@media screen and (min-width: 768px){
+	.nuestro-equipo-item{
+		width: 500px;
+	}
+	.nuestro-equipo-item a{
+		font-size: 30px;	
+	}
+
+	.ne-svg{
+		width: 40px;
+		height: 40px;
+	}
+}

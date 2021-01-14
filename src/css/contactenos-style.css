@@ -1,0 +1,14 @@
+.link-contacto {
+	color: #000;
+	display: inline;
+}
+
+.link-contacto:hover{
+	color: #680000;
+}
+
+.icon-contacto{
+	width: 24px;
+	height: 24px;
+	margin-right: 10px;
+}

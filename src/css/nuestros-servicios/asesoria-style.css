@@ -1,0 +1,58 @@
+.pasos-item{
+	display: flex;
+	flex-direction: column;
+	border-radius: 50%;
+	height: 225px;
+	width: 225px;
+	background: #680000;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover{
+	text-decoration: none;
+	color: #680000;
+}
+.razones-item{
+	width: 80%;
+	margin: 10px 5px;
+	background: #680000;
+	color: #fff;
+	padding: 10px 5px;
+	height: 68px;
+}
+.razones-item p{
+	margin-bottom: unset !important;
+}
+
+p{
+	font-size: 18px;
+}
+
+#ae-container{
+	background: #eeeeee;border-radius: 10px;
+}
+
+#ae-background{
+	background: url('/src/img/nuestros-servicios/asesorias-empresariales/ae-bg.png');
+	background-size: cover;
+	background-position: center;
+}
+
+li{
+	display: flex;
+	align-items: center;
+}
+
+@media screen and (min-width: 768px){
+	.pasos-item{
+		margin-bottom: unset;
+	}
+}
