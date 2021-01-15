@@ -48,14 +48,26 @@
 							</form>
 						</section>
 
-						<div class="my-5" id="temas-interes-container">
+						<div class="my-5 pos-relative" id="temas-interes-container">
 
-							<span>Temas de interés:</span>
+							<h4 class="my-3">Temas de interés:</h4>
 							
 							<div class="owl-carousel" id="tags-carousel">
 								<span class="badge badge-pill mb-2 mb-md-0 ml-1">Contratos sociedades</span>
 								<span class="badge badge-pill mb-2 mb-md-0">Procesos ejecutivos</span>
 								<span class="badge badge-pill mb-2 mb-md-0 mr-1">Procesos declarativos</span>
+							</div>
+							<div class="btn-container">
+								<div id="tags-btn-izq">
+									<svg class="arrow" viewBox="0 0 24 24">
+										<path d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M14,7L9,12L14,17V7Z" />
+									</svg>
+								</div>
+								<div id="tags-btn-der">
+									<svg class="arrow" viewBox="0 0 24 24">
+										<path d="M2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12M10,17L15,12L10,7V17Z" />
+									</svg>
+								</div>
 							</div>
 						</div>
 
@@ -95,19 +107,6 @@
 							
 	
 							</div>
-							<!-- <div class="btn-container">
-								<div id="abogados-btn-izq">
-									<svg class="arrow" viewBox="0 0 24 24">
-										<path d="M22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12M14,7L9,12L14,17V7Z" />
-									</svg>
-								</div>
-								<div id="abogados-btn-der">
-									<svg class="arrow" viewBox="0 0 24 24">
-										<path d="M2,12A10,10 0 0,1 12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12M10,17L15,12L10,7V17Z" />
-									</svg>
-								</div>
-							</div> -->
-
 
 						</div>
 

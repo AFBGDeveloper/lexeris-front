@@ -71,11 +71,11 @@ $(document).ready(function () {
 		},
 		smartSpeed: 1000
 	});
-	$("#abogados-btn-der").click(function () {
-		abogados_carousel.trigger('next.owl.carousel');
+	$("#tags-btn-der").click(function () {
+		tags_carousel.trigger('next.owl.carousel');
 	});
-	$("#abogados-btn-izq").click(function () {
-		abogados_carousel.trigger('prev.owl.carousel');
+	$("#tags-btn-izq").click(function () {
+		tags_carousel.trigger('prev.owl.carousel');
 	});
 	$("#nav-icon2").click(function () {
 		$(this).toggleClass("open");
