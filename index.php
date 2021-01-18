@@ -110,14 +110,10 @@
 
 						</div>
 
-						<div class="row pos-relative">
+						<div class="row pos-relative my-3">
 							<div class="owl-carousel owl-theme" id="publicidad-carousel">
 								<div>
-									<img  src="/src/img/logo-lema.png" alt="">
-								</div>
-								<div>
-
-									<img  src="/src/img/logo-lema.png" alt="">
+									<img  src="/src/img/promocion.png" alt="" title="">
 								</div>
 							</div>
 						</div>
@@ -170,7 +166,6 @@
 						</section>
 
 				<section class="row mt-2" style="height: calc(100vh - 48.63px);">
-				
 					<iframe width="100%" height="100%" src="https://www.youtube.com/embed/atESwB6GwfM" frameborder="0"
 						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 						allowfullscreen></iframe>
