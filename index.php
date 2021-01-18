@@ -113,6 +113,7 @@
 						<div class="row pos-relative my-3">
 							<div class="owl-carousel owl-theme" id="publicidad-carousel">
 								<div>
+									<h5 class="mb-3 text-center" style="border-bottom: 1px solid #000; padding-bottom: 5px;">Nuestras promociones</h5>
 									<img  src="/src/img/promocion.png" alt="" title="">
 								</div>
 							</div>
