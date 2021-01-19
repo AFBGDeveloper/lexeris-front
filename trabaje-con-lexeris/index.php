@@ -11,7 +11,7 @@
 	<meta http-equiv="Last-Modified" content="0">
 	<meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
 	<meta http-equiv="Pragma" content="no-cache">
-	<?php include_once $_SERVER["DOCUMENT_ROOT"] . '/src/commons/common-styles-caller.php' ;?>
+	<?php include_once $_SERVER["DOCUMENT_ROOT"] . '/src/commons/common-styles-caller.php';?>
 
 </head>
 
@@ -19,7 +19,7 @@
 
 	<div class="container-fluid">
 
-		<?php include_once $_SERVER["DOCUMENT_ROOT"] . '/src/commons/header.php' ;?>
+		<?php include_once $_SERVER["DOCUMENT_ROOT"] . '/src/commons/header.php';?>
 
 		<main class="row">
 			<div class="col-12">
@@ -46,8 +46,6 @@
 						<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Apellidos">
 					</div>
 
-
-
 					<select class="form-control mt-2" name="" id="">
 						<option>Área</option>
 						<option>Especialidad de derecho</option>
@@ -59,8 +57,9 @@
 						<option>Procesal</option>
 					</select>
 
-					<select class="form-control my-2" name="" id="res">
-					</select>
+					<select class="form-control my-2" name="" id="departments"></select>
+
+					<select class="form-control my-2" id="cities"></select>
 
 					<input type="file" name="" id="">
 
@@ -72,10 +71,12 @@
 		</main>
 
 
-		<?php include_once $_SERVER["DOCUMENT_ROOT"] . '/src/commons/footer.php' ;?>
+		<?php include_once $_SERVER["DOCUMENT_ROOT"] . '/src/commons/footer.php';?>
 
 	</div>
-	<?php include_once $_SERVER["DOCUMENT_ROOT"] . '/src/commons/common-scripts-caller.php' ;?>
+	<?php include_once $_SERVER["DOCUMENT_ROOT"] . '/src/commons/common-scripts-caller.php';?>
+
+	<script type="module" src="/src/js/tcl-script.js"></script>
 </body>
 
 </html>

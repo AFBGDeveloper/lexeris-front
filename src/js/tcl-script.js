@@ -1,31 +1,29 @@
-function traerCiudades() {
+import { getLocations } from './utils-module.js';
 
-	const xhttp = new XMLHttpRequest();
+// Variables
+let locations = []
 
-	xhttp.open('GET', 'ciudades.json', true);
-	xhttp.send();
+async function main() {
+	try {
+		locations = await getLocations()
 
-	xhttp.onreadystatechange = function () {
-		if (this.readyState == 4 && this.status == 200) {
-			// console.log(this.responseText);
+		// Se llena el departments select
+		locations.forEach(({ id, departamento }) => {
+			$('#departments').append(`<option value="${id}">${departamento}</option>`)
+		});
 
-			let datos = JSON.parse(this.responseText);
-			// console.log(datos);
+		$('#departments').on('change', function (e) {
+			$('#cities').html("");
+			const { ciudades } = locations.find(department => department.id === parseInt($(this).val()))
 
-			let res = document.querySelector('#res');
+			ciudades.forEach(city => {
+				$('#cities').append(`<option value="${city}">${city}</option>`)
+			})
+		});
 
-			res.innerHTML = '';
-
-			for (let item of datos) {
-				// console.log(datos.id);
-				for (var i = 0; i < item['ciudades'].length; i++) {
-					res.innerHTML += `<option>${item.ciudades[i]}, ${item.departamento}</option>`;
-				}
-
-
-			}
-		}
+	} catch (error) {
+		console.warn(error)
 	}
 }
 
-traerCiudades();
+main()

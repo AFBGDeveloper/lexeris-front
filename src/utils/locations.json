@@ -1,16 +1,16 @@
-[  
-    {  
-        "id":0,
-        "departamento":"Amazonas",
-        "ciudades":[  
+[
+    {
+        "id": 0,
+        "departamento": "Amazonas",
+        "ciudades": [
             "Leticia",
             "Puerto Nari\u00f1o"
         ]
     },
-    {  
-        "id":1,
-        "departamento":"Antioquia",
-        "ciudades":[  
+    {
+        "id": 1,
+        "departamento": "Antioquia",
+        "ciudades": [
             "Abejorral",
             "Abriaqu\u00ed",
             "Alejandr\u00eda",
@@ -138,10 +138,10 @@
             "Zaragoza"
         ]
     },
-    {  
-        "id":2,
-        "departamento":"Arauca",
-        "ciudades":[  
+    {
+        "id": 2,
+        "departamento": "Arauca",
+        "ciudades": [
             "Arauca",
             "Arauquita",
             "Cravo Norte",
@@ -151,10 +151,10 @@
             "Tame"
         ]
     },
-    {  
-        "id":3,
-        "departamento":"Atl\u00e1ntico",
-        "ciudades":[  
+    {
+        "id": 3,
+        "departamento": "Atl\u00e1ntico",
+        "ciudades": [
             "Baranoa",
             "Barranquilla",
             "Campo de la Cruz",
@@ -180,10 +180,10 @@
             "Usiacur\u00ed"
         ]
     },
-    {  
-        "id":4,
-        "departamento":"Bol\u00edvar",
-        "ciudades":[  
+    {
+        "id": 4,
+        "departamento": "Bol\u00edvar",
+        "ciudades": [
             "Ach\u00ed",
             "Altos del Rosario",
             "Arenal",
@@ -233,10 +233,10 @@
             "Zambrano"
         ]
     },
-    {  
-        "id":5,
-        "departamento":"Boyac\u00e1",
-        "ciudades":[  
+    {
+        "id": 5,
+        "departamento": "Boyac\u00e1",
+        "ciudades": [
             "Almeida",
             "Aquitania",
             "Arcabuco",
@@ -362,10 +362,10 @@
             "Zetaquira"
         ]
     },
-    {  
-        "id":6,
-        "departamento":"Caldas",
-        "ciudades":[  
+    {
+        "id": 6,
+        "departamento": "Caldas",
+        "ciudades": [
             "Aguadas",
             "Anserma",
             "Aranzazu",
@@ -395,10 +395,10 @@
             "Viterbo"
         ]
     },
-    {  
-        "id":7,
-        "departamento":"Caquet\u00e1",
-        "ciudades":[  
+    {
+        "id": 7,
+        "departamento": "Caquet\u00e1",
+        "ciudades": [
             "Albania",
             "Bel\u00e9n de los Andaqu\u00edes",
             "Cartagena del Chair\u00e1",
@@ -417,10 +417,10 @@
             "Valpara\u00edso"
         ]
     },
-    {  
-        "id":8,
-        "departamento":"Casanare",
-        "ciudades":[  
+    {
+        "id": 8,
+        "departamento": "Casanare",
+        "ciudades": [
             "Aguazul",
             "Ch\u00e1meza",
             "Hato Corozal",
@@ -442,10 +442,10 @@
             "Yopal"
         ]
     },
-    {  
-        "id":9,
-        "departamento":"Cauca",
-        "ciudades":[  
+    {
+        "id": 9,
+        "departamento": "Cauca",
+        "ciudades": [
             "Almaguer",
             "Argelia",
             "Balboa",
@@ -490,10 +490,10 @@
             "Villa Rica"
         ]
     },
-    {  
-        "id":10,
-        "departamento":"Cesar",
-        "ciudades":[  
+    {
+        "id": 10,
+        "departamento": "Cesar",
+        "ciudades": [
             "Aguachica",
             "Agust\u00edn Codazzi",
             "Astrea",
@@ -521,10 +521,10 @@
             "Valledupar"
         ]
     },
-    {  
-        "id":11,
-        "departamento":"Choc\u00f3",
-        "ciudades":[  
+    {
+        "id": 11,
+        "departamento": "Choc\u00f3",
+        "ciudades": [
             "Acand\u00ed",
             "Alto Baud\u00f3",
             "Bagad\u00f3",
@@ -557,10 +557,10 @@
             "Ungu\u00eda"
         ]
     },
-    {  
-        "id":12,
-        "departamento":"Cundinamarca",
-        "ciudades":[  
+    {
+        "id": 12,
+        "departamento": "Cundinamarca",
+        "ciudades": [
             "Agua de Dios",
             "Alb\u00e1n",
             "Anapoima",
@@ -680,10 +680,10 @@
             "Zipaquir\u00e1"
         ]
     },
-    {  
-        "id":13,
-        "departamento":"C\u00f3rdoba",
-        "ciudades":[  
+    {
+        "id": 13,
+        "departamento": "C\u00f3rdoba",
+        "ciudades": [
             "Ayapel",
             "Buenavista",
             "Canalete",
@@ -716,27 +716,27 @@
             "Valencia"
         ]
     },
-    {  
-        "id":14,
-        "departamento":"Guain\u00eda",
-        "ciudades":[  
+    {
+        "id": 14,
+        "departamento": "Guain\u00eda",
+        "ciudades": [
             "In\u00edrida"
         ]
     },
-    {  
-        "id":15,
-        "departamento":"Guaviare",
-        "ciudades":[  
+    {
+        "id": 15,
+        "departamento": "Guaviare",
+        "ciudades": [
             "Calamar",
             "El Retorno",
             "Miraflores",
             "San Jos\u00e9 del Guaviare"
         ]
     },
-    {  
-        "id":16,
-        "departamento":"Huila",
-        "ciudades":[  
+    {
+        "id": 16,
+        "departamento": "Huila",
+        "ciudades": [
             "Acevedo",
             "Agrado",
             "Aipe",
@@ -776,10 +776,10 @@
             "Yaguar\u00e1"
         ]
     },
-    {  
-        "id":17,
-        "departamento":"La Guajira",
-        "ciudades":[  
+    {
+        "id": 17,
+        "departamento": "La Guajira",
+        "ciudades": [
             "Albania",
             "Barrancas",
             "Dibulla",
@@ -797,10 +797,10 @@
             "Villanueva"
         ]
     },
-    {  
-        "id":18,
-        "departamento":"Magdalena",
-        "ciudades":[  
+    {
+        "id": 18,
+        "departamento": "Magdalena",
+        "ciudades": [
             "Algarrobo",
             "Aracataca",
             "Ariguan\u00ed",
@@ -834,10 +834,10 @@
             "Zona Bananera"
         ]
     },
-    {  
-        "id":19,
-        "departamento":"Meta",
-        "ciudades":[  
+    {
+        "id": 19,
+        "departamento": "Meta",
+        "ciudades": [
             "Acac\u00edas",
             "Barranca de Up\u00eda",
             "Cabuyaro",
@@ -869,10 +869,10 @@
             "Vista Hermosa"
         ]
     },
-    {  
-        "id":20,
-        "departamento":"Nari\u00f1o",
-        "ciudades":[  
+    {
+        "id": 20,
+        "departamento": "Nari\u00f1o",
+        "ciudades": [
             "Aldana",
             "Ancuy\u00e1",
             "Arboleda",
@@ -939,10 +939,10 @@
             "Yacuanquer"
         ]
     },
-    {  
-        "id":21,
-        "departamento":"Norte de Santander",
-        "ciudades":[  
+    {
+        "id": 21,
+        "departamento": "Norte de Santander",
+        "ciudades": [
             "\u00c1brego",
             "Arboledas",
             "Bochalema",
@@ -985,10 +985,10 @@
             "Villa del Rosario"
         ]
     },
-    {  
-        "id":22,
-        "departamento":"Putumayo",
-        "ciudades":[  
+    {
+        "id": 22,
+        "departamento": "Putumayo",
+        "ciudades": [
             "Col\u00f3n",
             "Mocoa",
             "Orito",
@@ -1004,10 +1004,10 @@
             "Villagarz\u00f3n"
         ]
     },
-    {  
-        "id":23,
-        "departamento":"Quind\u00edo",
-        "ciudades":[  
+    {
+        "id": 23,
+        "departamento": "Quind\u00edo",
+        "ciudades": [
             "Armenia",
             "Buenavista",
             "Calarc\u00e1",
@@ -1022,10 +1022,10 @@
             "Salento"
         ]
     },
-    {  
-        "id":24,
-        "departamento":"Risaralda",
-        "ciudades":[  
+    {
+        "id": 24,
+        "departamento": "Risaralda",
+        "ciudades": [
             "Ap\u00eda",
             "Balboa",
             "Bel\u00e9n de Umbr\u00eda",
@@ -1042,18 +1042,18 @@
             "Santuario"
         ]
     },
-    {  
-        "id":25,
-        "departamento":"San Andr\u00e9s y Providencia",
-        "ciudades":[  
+    {
+        "id": 25,
+        "departamento": "San Andr\u00e9s y Providencia",
+        "ciudades": [
             "Providencia y Santa Catalina Islas",
             "San Andr\u00e9s"
         ]
     },
-    {  
-        "id":26,
-        "departamento":"Santander",
-        "ciudades":[  
+    {
+        "id": 26,
+        "departamento": "Santander",
+        "ciudades": [
             "Aguada",
             "Albania",
             "Aratoca",
@@ -1143,10 +1143,10 @@
             "Zapatoca"
         ]
     },
-    {  
-        "id":27,
-        "departamento":"Sucre",
-        "ciudades":[  
+    {
+        "id": 27,
+        "departamento": "Sucre",
+        "ciudades": [
             "Buenavista",
             "Caimito",
             "Chal\u00e1n",
@@ -1175,10 +1175,10 @@
             "Tol\u00fa Viejo"
         ]
     },
-    {  
-        "id":28,
-        "departamento":"Tolima",
-        "ciudades":[  
+    {
+        "id": 28,
+        "departamento": "Tolima",
+        "ciudades": [
             "Alpujarra",
             "Alvarado",
             "Ambalema",
@@ -1228,10 +1228,10 @@
             "Villarrica"
         ]
     },
-    {  
-        "id":29,
-        "departamento":"Valle del Cauca",
-        "ciudades":[  
+    {
+        "id": 29,
+        "departamento": "Valle del Cauca",
+        "ciudades": [
             "Alcal\u00e1",
             "Andaluc\u00eda",
             "Ansermanuevo",
@@ -1276,19 +1276,19 @@
             "Zarzal"
         ]
     },
-    {  
-        "id":30,
-        "departamento":"Vaup\u00e9s",
-        "ciudades":[  
+    {
+        "id": 30,
+        "departamento": "Vaup\u00e9s",
+        "ciudades": [
             "Carur\u00fa",
             "Mit\u00fa",
             "Taraira"
         ]
     },
-    {  
-        "id":31,
-        "departamento":"Vichada",
-        "ciudades":[  
+    {
+        "id": 31,
+        "departamento": "Vichada",
+        "ciudades": [
             "Cumaribo",
             "La Primavera",
             "Puerto Carre\u00f1o",
